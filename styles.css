@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Eleição do Grêmio Estudantil</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f9f9f9;
+    }
+    .container {
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    h1, h2 {
+        text-align: center;
+        color: #333;
+    }
+    form {
+        margin-top: 20px;
+    }
+    .form-group {
+        margin-bottom: 20px;
+    }
+    label {
+        display: block;
+        font-weight: bold;
+        color: #555;
+    }
+    select {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        background-color: #f5f5f5;
+        color: #555;
+    }
+    button {
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    button:hover {
+        background-color: #0056b3;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+    th, td {
+        padding: 8px;
+        border: 1px solid #ddd;
+        text-align: left;
+    }
+    th {
+        background-color: #007bff;
+        color: #fff;
+    }
+    /* Estilos para as propostas */
+    #proposals {
+        margin-top: 30px;
+    }
+    .proposal {
+        background-color: #f5f5f5;
+        border-radius: 8px;
+        padding: 20px;
+        margin-bottom: 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .proposal h3 {
+        color: #007bff;
+    }
+    .proposal p {
+        color: #333;
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Eleição do Grêmio Estudantil</h1>
+    
+    <!-- Formulário de votação -->
+    <form id="voting-form">
+        <div class="form-group">
+            <label for="chapa">Escolha sua chapa:</label>
+            <select id="chapa" name="chapa">
+                <option value="01">Chapa 01</option>
+                <option value="02">Chapa 02</option>
+                <option value="03">Chapa 03</option>
+                <option value="04">Chapa 04</option>
+            </select>
+        </div>
+        <button type="submit">Votar</button>
+    </form>
+
+    <!-- Tabela para exibir os resultados da votação -->
+    <h2>Resultados da Votação</h2>
+    <table id="voting-results">
+        <thead>
+            <tr>
+                <th>Chapa</th>
+                <th>Total de Votos</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Chapa 01</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Chapa 02</td>
+                <td>30</td>
+            </tr>
+            <!-- Adicione mais linhas conforme necessário -->
+        </tbody>
+    </table>
+    
+    <!-- Propostas das chapas -->
+    <h2>Propostas das Chapas</h2>
+    <div id="proposals">
+        <div class="proposal">
+            <h3>Chapa 01</h3>
+            <p>Proposta 1: Implementação de programas de reforço escolar gratuitos para os alunos que estejam com dificuldades acadêmicas.</p>
+            <p>Proposta 2: Organização de palestras e workshops sobre temas como empreendedorismo, cidadania e saúde mental para os estudantes.</p>
+        </div>
+        <div class="proposal">
+            <h3>Chapa 02</h3>
+            <p>Proposta 1: Criação de um projeto de horta comunitária na escola para promover a educação ambiental e fornecer alimentos saudáveis para os alunos.</p>
+            <p>Proposta 2: Incentivo à prática esportiva através da ampliação do programa de educação física e da criação de times esportivos na escola.</p>
+        </div>
+        <div class="proposal">
+            <h3>Chapa 03</h3>
+            <p>Proposta 1: Ampliação do acesso à cultura e às artes através de parcerias com instituições culturais locais para visitas guiadas e atividades artísticas.</p>
+            <p>Proposta 2: Implementação de um programa de mentoria entre alunos mais velhos e mais novos para promover a integração e o apoio mútuo entre os estudantes.</p>
+        </div>
+        <div class="proposal">
+            <h3>Chapa 04</h3>
+            <p>Proposta 1: Melhoria das instalações escolares, com foco na reforma de salas de aula, banheiros e áreas de convivência.</p>
+            <p>Proposta 2: Promoção de ações de conscientização e combate à violência e ao bullying escolar, através de campanhas educativas e programas
+
+        
